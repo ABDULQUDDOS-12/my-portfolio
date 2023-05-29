@@ -1,15 +1,26 @@
-import Head from "next/head"
+import Header from "../../Components/Header"
 export default function Home() {
   return (
    <>
-    <Head>
+    <head>
       <title>
         My Portfolio
       </title>
-    </Head>
-    <div>
-    <h1 className="p-10 text-red-">Abdul Quddos</h1>
-    </div>
+    </head>
+    <Header/>
+    {/* Header */}
+
+    {/* Hero */}
+
+    {/* About */}
+
+    {/* Experience */}
+
+    {/* Skills */}
+
+    {/* projects */}
+
+    {/* Contact me */}
    </>
   )
 }
