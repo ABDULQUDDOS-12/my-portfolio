@@ -25,7 +25,7 @@ const about = (props: Props) => {
             once:true
         }}
         src='https://avatars.githubusercontent.com/u/76174028?s=400&u=2b9507a9936753a26d390d06e7a078cf979acad0&v=4'
-        className="relative rounded-full h-50 w-50 mt-10 mx-auto object-cover"/>
+        className="-mb-20 md:mb-0 flex-shrink-0 w-56 rounded-full object-cover md:rounded-lg md:w-64 md:h-95 xl:w-[300px] xl:h-[300px]"/>
            <motion.div
         initial={{opacity:0}}
         whileInView={{opacity:1}}
