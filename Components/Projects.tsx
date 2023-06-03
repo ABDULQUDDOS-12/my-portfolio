@@ -8,11 +8,10 @@ const Projects = (props: Props) => {
     return (
     <motion.div 
     initial={{
-        y:-300,
         opacity:0
     }}
     whileInView={{
-opacity:1
+opacity:1,
     }}
     transition={{
 duration:1.5

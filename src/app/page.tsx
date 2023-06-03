@@ -2,7 +2,8 @@ import Header from "../../Components/Header";
 import Hero from "../../Components/Hero";
 import React from "react";
 import About from "../../Components/About";
-import WorkExperience from "../../Components/WorkExperience";
+// import WorkExperience from "../../Components/WorkExperience";
+import ContactMe from "../../Components/ContactMe";
 import Skills from "../../Components/Skills";
 import Projects from "../../Components/Projects";
 export default function Home() {
@@ -38,6 +39,9 @@ export default function Home() {
   <Projects/>
 </section>
     {/* Contact me */}
+   <section id="contact" >
+    <ContactMe/>
+   </section>
    </div>
   )
 }
