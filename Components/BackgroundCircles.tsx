@@ -17,22 +17,22 @@ const BackgroundCircles = (props: Props) => {
         duration:2.5
     }}
     className='relative flex justify-center items-center'>
-        <div className='rounded-full border  border-[#28f51e] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border  border-[#28f51e] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border  border-[#28f51e] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border  border-[#28f51e] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border  border-[#28f51e] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border  border-[#28f51e] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#ed1919] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#ed1919] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#ed1919] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#ed1919] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#ed1919] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#fcfbfd] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#e81095] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#e81095] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#e81095] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
-        <div className='rounded-full border border-[#e81095] h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border   border-[#28f51e] border-t-8 border-r-8 border-b-8 border-l-8  h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border   border-[#28f51e] border-t-8 border-r-8 border-b-8 border-l-8  h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border   border-[#28f51e] border-t-8 border-r-8 border-b-8 border-l-8  h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border   border-[#28f51e] border-t-8 border-r-8 border-b-8 border-l-8  h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border   border-[#28f51e] border-t-8 border-r-8 border-b-8 border-l-8  h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border   border-[#28f51e] border-t-8 border-r-8 border-b-8 border-l-8  h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border  border-[#ed1919]  border-t-8 border-r-8 border-b-8 border-l-8 h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border  border-[#ed1919]  border-t-8 border-r-8 border-b-8 border-l-8 h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border  border-[#ed1919]  border-t-8 border-r-8 border-b-8 border-l-8 h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border  border-[#ed1919]  border-t-8 border-r-8 border-b-8 border-l-8 h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border  border-[#ed1919]  border-t-8 border-r-8 border-b-8 border-l-8 h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border  border-[#fcfbfd]  border-t-8 border-r-8 border-b-8 border-l-8 h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border  border-[#e81095]  border-t-8 border-r-8 border-b-8 border-l-8 h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border  border-[#e81095]  border-t-8 border-r-8 border-b-8 border-l-8 h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border  border-[#e81095]  border-t-8 border-r-8 border-b-8 border-l-8 h-[200px] w-[200px] absolute mt-52 animate-ping'/>
+        <div className='rounded-full  border  border-[#e81095]  border-t-8 border-r-8 border-b-8 border-l-8 h-[200px] w-[200px] absolute mt-52 animate-ping'/>
     </motion.div>
   )
 }

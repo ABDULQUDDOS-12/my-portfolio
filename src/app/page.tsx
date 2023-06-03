@@ -4,6 +4,7 @@ import React from "react";
 import About from "../../Components/About";
 import WorkExperience from "../../Components/WorkExperience";
 import Skills from "../../Components/Skills";
+import Projects from "../../Components/Projects";
 export default function Home() {
   return (
    <div className="bg-[rgb(36,36,36)] text-white h-screen snap-y snap-mandatory overflow-scroll z-0">
@@ -25,15 +26,17 @@ export default function Home() {
   <About/>
 </section>
     {/* Experience */}
-<section id="experience" className="snap-center">
+{/* <section id="experience" className="snap-center">
 <WorkExperience/>
-</section>
+</section> */}
     {/* Skills */}
 <section id="skills" className="snap-start">
 <Skills/>
 </section>
     {/* projects */}
-
+<section id="projects" className="snap-start">
+  <Projects/>
+</section>
     {/* Contact me */}
    </div>
   )
