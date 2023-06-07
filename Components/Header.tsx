@@ -2,8 +2,11 @@
 import React from 'react';
 import {SocialIcon} from "react-social-icons"
 import { motion} from 'framer-motion';
+// import Link from 'next/link';
 const Header = () => {
+
   return (
+   
    <header className='sticky top-0 flex items-start justify-between max-w-7xl mx-auto z-20 xl:items-center'>
      <motion.div 
      initial={{
@@ -24,6 +27,8 @@ const Header = () => {
      <SocialIcon url="https://www.linkedin.com/in/abdul-quddos-42a9a8227/" bgColor="transparent" fgColor="gray" />
      <SocialIcon url="https://www.linkedin.com/in/abdul-quddos-42a9a8227/" bgColor="transparent" fgColor="gray" />
       </motion.div> 
+   
+   <a href="#contact">
    <motion.div
    initial={{
       x:500,
@@ -47,7 +52,7 @@ const Header = () => {
         />
         <p className='uppercase hidden md:inline-flex text-sm text-gray-400'>Get In Touch</p>
   </motion.div>
-     
+  </a>
   </header>
   
   )
